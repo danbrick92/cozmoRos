@@ -3,6 +3,6 @@ prefix=/home/danbr/git/cozmoRos/ros_ws/devel
 Name: cozmo_rc
 Description: Description of cozmo_rc
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/danbr/git/cozmoRos/ros_ws/devel/include
 Libs: -L${prefix}/lib 
 Requires: 

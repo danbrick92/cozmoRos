@@ -1,7 +1,7 @@
 # Imports
 import rospy
-from std_msgs.msg import String
 import cozmo
+from cozmo_rc.srv import speaker_req
 
 # Globals
 speech = ""
@@ -13,22 +13,22 @@ def speak(robot: cozmo.robot.Robot):
     """
     robot.say_text(speech).wait_for_completed()
 
-def speaker(speech_data):
+def speaker(req):
     """
     Purpose: Allows cozmo to speak whatever was published
     """
     global speech
-    speech = speech_data.data
+    speech = req.data
     cozmo.run_program(speak)
 
-def subscriber():
+def service():
     """
     Purpose: Subcribes to topic and outputs speech
     """
-    rospy.init_node('SpeakerSubscriber', anonymous=True)
-    rospy.Subscriber("CozmoSpeaker", String, speaker)
+    rospy.init_node('SpeakerService', anonymous=True)
+    rospy.Service("CozmoSpeaker", speaker_req, speaker)
     rospy.spin()
 
 if __name__ == '__main__':
-    subscriber()
+    service()
 
