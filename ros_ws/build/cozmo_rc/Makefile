@@ -228,6 +228,21 @@ cozmo_rc_generate_messages_nodejs/fast:
 .PHONY : cozmo_rc_generate_messages_nodejs/fast
 
 # Convenience name for target.
+cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule:
+	cd /home/danbr/git/cozmoRos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
+.PHONY : cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
+
+# Convenience name for target.
+cozmo_rc_genlisp: cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
+
+.PHONY : cozmo_rc_genlisp
+
+# fast build rule for target.
+cozmo_rc_genlisp/fast:
+	cd /home/danbr/git/cozmoRos/ros_ws/build && $(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build
+.PHONY : cozmo_rc_genlisp/fast
+
+# Convenience name for target.
 cozmo_rc/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
 	cd /home/danbr/git/cozmoRos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : cozmo_rc/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
@@ -333,6 +348,21 @@ _cozmo_rc_generate_messages_check_deps_speaker_req/fast:
 .PHONY : _cozmo_rc_generate_messages_check_deps_speaker_req/fast
 
 # Convenience name for target.
+cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/rule:
+	cd /home/danbr/git/cozmoRos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/rule
+.PHONY : cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/rule
+
+# Convenience name for target.
+_cozmo_rc_generate_messages_check_deps_light_req: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/rule
+
+.PHONY : _cozmo_rc_generate_messages_check_deps_light_req
+
+# fast build rule for target.
+_cozmo_rc_generate_messages_check_deps_light_req/fast:
+	cd /home/danbr/git/cozmoRos/ros_ws/build && $(MAKE) -f cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/build.make cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/build
+.PHONY : _cozmo_rc_generate_messages_check_deps_light_req/fast
+
+# Convenience name for target.
 cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir/rule:
 	cd /home/danbr/git/cozmoRos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir/rule
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir/rule
@@ -407,21 +437,6 @@ cozmo_rc_geneus/fast:
 	cd /home/danbr/git/cozmoRos/ros_ws/build && $(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/build
 .PHONY : cozmo_rc_geneus/fast
 
-# Convenience name for target.
-cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule:
-	cd /home/danbr/git/cozmoRos/ros_ws/build && $(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
-.PHONY : cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
-
-# Convenience name for target.
-cozmo_rc_genlisp: cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
-
-.PHONY : cozmo_rc_genlisp
-
-# fast build rule for target.
-cozmo_rc_genlisp/fast:
-	cd /home/danbr/git/cozmoRos/ros_ws/build && $(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build
-.PHONY : cozmo_rc_genlisp/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -436,6 +451,7 @@ help:
 	@echo "... cozmo_rc_generate_messages_py"
 	@echo "... cozmo_rc_gennodejs"
 	@echo "... cozmo_rc_generate_messages_nodejs"
+	@echo "... cozmo_rc_genlisp"
 	@echo "... install/strip"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... install"
@@ -446,12 +462,12 @@ help:
 	@echo "... cozmo_rc_generate_messages"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... _cozmo_rc_generate_messages_check_deps_speaker_req"
+	@echo "... _cozmo_rc_generate_messages_check_deps_light_req"
 	@echo "... cozmo_rc_gencpp"
 	@echo "... cozmo_rc_generate_messages_cpp"
 	@echo "... cozmo_rc_generate_messages_eus"
 	@echo "... cozmo_rc_generate_messages_lisp"
 	@echo "... cozmo_rc_geneus"
-	@echo "... cozmo_rc_genlisp"
 .PHONY : help
 
 

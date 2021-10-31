@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/danbr/git/cozmoRos/ros_ws/build
 include cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/progress.make
 
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp: /home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/speaker_req.h
+cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp: /home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/light_req.h
 
 
 /home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/speaker_req.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
@@ -63,8 +64,16 @@ cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp: /home/danbr/git/cozmoRos/ros
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from cozmo_rc/speaker_req.srv"
 	cd /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc && /home/danbr/git/cozmoRos/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cozmo_rc -o /home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc -e /opt/ros/noetic/share/gencpp/cmake/..
 
+/home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/light_req.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/light_req.h: /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv
+/home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/light_req.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/light_req.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from cozmo_rc/light_req.srv"
+	cd /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc && /home/danbr/git/cozmoRos/ros_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cozmo_rc -o /home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc -e /opt/ros/noetic/share/gencpp/cmake/..
+
 cozmo_rc_generate_messages_cpp: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp
 cozmo_rc_generate_messages_cpp: /home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/speaker_req.h
+cozmo_rc_generate_messages_cpp: /home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/light_req.h
 cozmo_rc_generate_messages_cpp: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/build.make
 
 .PHONY : cozmo_rc_generate_messages_cpp

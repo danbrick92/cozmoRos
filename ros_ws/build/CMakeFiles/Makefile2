@@ -93,6 +93,7 @@ cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_genpy.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_gennodejs.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/clean
+cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
@@ -100,12 +101,12 @@ cozmo_rc/clean: cozmo_rc/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_speaker_req.dir/clean
+cozmo_rc/clean: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/clean
 cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/clean
-cozmo_rc/clean: cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/clean
 
 .PHONY : cozmo_rc/clean
 
@@ -309,7 +310,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=10,11 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=15,16 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -336,7 +337,7 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=8,9 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=13,14 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -363,7 +364,7 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=14,15 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=19,20 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -390,7 +391,7 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=12,13 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=17,18 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -422,7 +423,7 @@ cozmo_rc/CMakeFiles/cozmo_rc_genpy.dir/all: cozmo_rc/CMakeFiles/cozmo_rc_generat
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_genpy.dir/rule
@@ -443,14 +444,15 @@ cozmo_rc/CMakeFiles/cozmo_rc_genpy.dir/clean:
 # All Build rule for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/all: cozmo_rc/CMakeFiles/std_msgs_generate_messages_py.dir/all
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_speaker_req.dir/all
+cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/all
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/depend
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=6,7 "Built target cozmo_rc_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=10,11,12 "Built target cozmo_rc_generate_messages_py"
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/rule
@@ -477,7 +479,7 @@ cozmo_rc/CMakeFiles/cozmo_rc_gennodejs.dir/all: cozmo_rc/CMakeFiles/cozmo_rc_gen
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_gennodejs.dir/rule
@@ -498,14 +500,15 @@ cozmo_rc/CMakeFiles/cozmo_rc_gennodejs.dir/clean:
 # All Build rule for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/all: cozmo_rc/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_speaker_req.dir/all
+cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/all
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/depend
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=5 "Built target cozmo_rc_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=8,9 "Built target cozmo_rc_generate_messages_nodejs"
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/rule
@@ -519,6 +522,33 @@ cozmo_rc_generate_messages_nodejs: cozmo_rc/CMakeFiles/cozmo_rc_generate_message
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/clean:
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/clean
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_nodejs.dir/clean
+
+#=============================================================================
+# Target rules for target cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir
+
+# All Build rule for target.
+cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/all: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/all
+	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/depend
+	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num= "Built target cozmo_rc_genlisp"
+.PHONY : cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/all
+
+# Build rule for subdir invocation for target.
+cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
+.PHONY : cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
+
+# Convenience name for target.
+cozmo_rc_genlisp: cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
+
+.PHONY : cozmo_rc_genlisp
+
+# clean rule for target.
+cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/clean:
+	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/clean
+.PHONY : cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/clean
 
 #=============================================================================
 # Target rules for target cozmo_rc/CMakeFiles/std_msgs_generate_messages_cpp.dir
@@ -644,7 +674,7 @@ cozmo_rc/CMakeFiles/cozmo_rc_generate_messages.dir/all: cozmo_rc/CMakeFiles/cozm
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages.dir/rule
@@ -714,6 +744,33 @@ cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_speaker_req.dir/clean
 .PHONY : cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_speaker_req.dir/clean
 
 #=============================================================================
+# Target rules for target cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir
+
+# All Build rule for target.
+cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/all:
+	$(MAKE) -f cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/build.make cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/depend
+	$(MAKE) -f cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/build.make cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num= "Built target _cozmo_rc_generate_messages_check_deps_light_req"
+.PHONY : cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/all
+
+# Build rule for subdir invocation for target.
+cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
+.PHONY : cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/rule
+
+# Convenience name for target.
+_cozmo_rc_generate_messages_check_deps_light_req: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/rule
+
+.PHONY : _cozmo_rc_generate_messages_check_deps_light_req
+
+# clean rule for target.
+cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/clean:
+	$(MAKE) -f cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/build.make cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/clean
+.PHONY : cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/clean
+
+#=============================================================================
 # Target rules for target cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir
 
 # All Build rule for target.
@@ -725,7 +782,7 @@ cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir/all: cozmo_rc/CMakeFiles/cozmo_rc_genera
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir/rule
@@ -746,14 +803,15 @@ cozmo_rc/CMakeFiles/cozmo_rc_gencpp.dir/clean:
 # All Build rule for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/all: cozmo_rc/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_speaker_req.dir/all
+cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/all
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/depend
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=1 "Built target cozmo_rc_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=1,2 "Built target cozmo_rc_generate_messages_cpp"
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/rule
@@ -774,14 +832,15 @@ cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp.dir/clean:
 # All Build rule for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/all: cozmo_rc/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_speaker_req.dir/all
+cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/all
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/depend
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=2,3 "Built target cozmo_rc_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=3,4,5 "Built target cozmo_rc_generate_messages_eus"
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/rule
@@ -802,14 +861,15 @@ cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/clean:
 # All Build rule for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/all: cozmo_rc/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_speaker_req.dir/all
+cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/all: cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/all
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/depend
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=4 "Built target cozmo_rc_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=6,7 "Built target cozmo_rc_generate_messages_lisp"
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/rule
@@ -836,7 +896,7 @@ cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/all: cozmo_rc/CMakeFiles/cozmo_rc_genera
 
 # Build rule for subdir invocation for target.
 cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/rule
@@ -850,33 +910,6 @@ cozmo_rc_geneus: cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/rule
 cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/clean:
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/clean
 .PHONY : cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/clean
-
-#=============================================================================
-# Target rules for target cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir
-
-# All Build rule for target.
-cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/all: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_lisp.dir/all
-	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/depend
-	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num= "Built target cozmo_rc_genlisp"
-.PHONY : cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/all
-
-# Build rule for subdir invocation for target.
-cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles 0
-.PHONY : cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
-
-# Convenience name for target.
-cozmo_rc_genlisp: cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/rule
-
-.PHONY : cozmo_rc_genlisp
-
-# clean rule for target.
-cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/clean:
-	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/clean
-.PHONY : cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

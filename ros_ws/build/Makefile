@@ -337,6 +337,19 @@ cozmo_rc_generate_messages_nodejs/fast:
 .PHONY : cozmo_rc_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named cozmo_rc_genlisp
+
+# Build rule for target.
+cozmo_rc_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc_genlisp
+.PHONY : cozmo_rc_genlisp
+
+# fast build rule for target.
+cozmo_rc_genlisp/fast:
+	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build
+.PHONY : cozmo_rc_genlisp/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -428,6 +441,19 @@ _cozmo_rc_generate_messages_check_deps_speaker_req/fast:
 .PHONY : _cozmo_rc_generate_messages_check_deps_speaker_req/fast
 
 #=============================================================================
+# Target rules for targets named _cozmo_rc_generate_messages_check_deps_light_req
+
+# Build rule for target.
+_cozmo_rc_generate_messages_check_deps_light_req: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _cozmo_rc_generate_messages_check_deps_light_req
+.PHONY : _cozmo_rc_generate_messages_check_deps_light_req
+
+# fast build rule for target.
+_cozmo_rc_generate_messages_check_deps_light_req/fast:
+	$(MAKE) -f cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/build.make cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req.dir/build
+.PHONY : _cozmo_rc_generate_messages_check_deps_light_req/fast
+
+#=============================================================================
 # Target rules for targets named cozmo_rc_gencpp
 
 # Build rule for target.
@@ -492,19 +518,6 @@ cozmo_rc_geneus/fast:
 	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_geneus.dir/build
 .PHONY : cozmo_rc_geneus/fast
 
-#=============================================================================
-# Target rules for targets named cozmo_rc_genlisp
-
-# Build rule for target.
-cozmo_rc_genlisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cozmo_rc_genlisp
-.PHONY : cozmo_rc_genlisp
-
-# fast build rule for target.
-cozmo_rc_genlisp/fast:
-	$(MAKE) -f cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build.make cozmo_rc/CMakeFiles/cozmo_rc_genlisp.dir/build
-.PHONY : cozmo_rc_genlisp/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -531,6 +544,7 @@ help:
 	@echo "... cozmo_rc_generate_messages_py"
 	@echo "... cozmo_rc_gennodejs"
 	@echo "... cozmo_rc_generate_messages_nodejs"
+	@echo "... cozmo_rc_genlisp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
@@ -538,12 +552,12 @@ help:
 	@echo "... cozmo_rc_generate_messages"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... _cozmo_rc_generate_messages_check_deps_speaker_req"
+	@echo "... _cozmo_rc_generate_messages_check_deps_light_req"
 	@echo "... cozmo_rc_gencpp"
 	@echo "... cozmo_rc_generate_messages_cpp"
 	@echo "... cozmo_rc_generate_messages_eus"
 	@echo "... cozmo_rc_generate_messages_lisp"
 	@echo "... cozmo_rc_geneus"
-	@echo "... cozmo_rc_genlisp"
 .PHONY : help
 
 

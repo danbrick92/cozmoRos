@@ -1,12 +1,18 @@
 # Hashes of file build rules.
+7a6361769e4f2ae2f3b0ab397efcd12d /home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/light_req.h
 3722fcb1c644a236244dfdf778a9611b /home/danbr/git/cozmoRos/ros_ws/devel/include/cozmo_rc/speaker_req.h
 fdda6619fd54c2566509023bb41ecb98 /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/__init__.py
+834b184e3571c13421e4aff2aa19701d /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_light_req.py
 130f43f95a89f5d2e7a0f33955e2c369 /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_speaker_req.py
+dfe67520c6ddbf9066b7421418b19c5e /home/danbr/git/cozmoRos/ros_ws/devel/share/common-lisp/ros/cozmo_rc/srv/light_req.lisp
 39a53cd1b8bfbbab520f915d9614d5f3 /home/danbr/git/cozmoRos/ros_ws/devel/share/common-lisp/ros/cozmo_rc/srv/speaker_req.lisp
+cc784e1d601443f4998276cc101f41b2 /home/danbr/git/cozmoRos/ros_ws/devel/share/gennodejs/ros/cozmo_rc/srv/light_req.js
 4095e4cb2a1d1af1e40fc91876c25be4 /home/danbr/git/cozmoRos/ros_ws/devel/share/gennodejs/ros/cozmo_rc/srv/speaker_req.js
 57319189ea077098bbfd09f55ccc9664 /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/manifest.l
+d0ead7800e994ce4032eed627fd7c697 /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv/light_req.l
 f61f3e3cccbc62a145be406c80fd1393 /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv/speaker_req.l
 7d0ef16775666f66e440603d80bb53d2 CMakeFiles/clean_test_results
+c66e2236bba011cfbc6a1bed4392633b cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_light_req
 af52b9b5b467db36d0ad25f9c3c76e33 cozmo_rc/CMakeFiles/_cozmo_rc_generate_messages_check_deps_speaker_req
 5150d905c6ebc3fadca4251da13b468b cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_cpp
 5150d905c6ebc3fadca4251da13b468b cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus

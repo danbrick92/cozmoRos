@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/danbr/git/cozmoRos/ros_ws/build
 include cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/progress.make
 
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py: /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_speaker_req.py
+cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py: /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_light_req.py
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py: /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/__init__.py
 
 
@@ -62,13 +63,20 @@ cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py: /home/danbr/git/cozmoRos/ros_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV cozmo_rc/speaker_req"
 	cd /home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cozmo_rc -o /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv
 
+/home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_light_req.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_light_req.py: /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV cozmo_rc/light_req"
+	cd /home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cozmo_rc -o /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv
+
 /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/__init__.py: /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_speaker_req.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for cozmo_rc"
+/home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/__init__.py: /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_light_req.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python srv __init__.py for cozmo_rc"
 	cd /home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv --initpy
 
 cozmo_rc_generate_messages_py: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py
 cozmo_rc_generate_messages_py: /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_speaker_req.py
+cozmo_rc_generate_messages_py: /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/_light_req.py
 cozmo_rc_generate_messages_py: /home/danbr/git/cozmoRos/ros_ws/devel/lib/python3/dist-packages/cozmo_rc/srv/__init__.py
 cozmo_rc_generate_messages_py: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_py.dir/build.make
 

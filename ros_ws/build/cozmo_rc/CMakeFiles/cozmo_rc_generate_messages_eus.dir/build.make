@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/danbr/git/cozmoRos/ros_ws/build
 include cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/progress.make
 
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus: /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv/speaker_req.l
+cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus: /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv/light_req.l
 cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus: /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/manifest.l
 
 
@@ -62,12 +63,18 @@ cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus: /home/danbr/git/cozmoRos/ros
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from cozmo_rc/speaker_req.srv"
 	cd /home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cozmo_rc -o /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv
 
+/home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv/light_req.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv/light_req.l: /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from cozmo_rc/light_req.srv"
+	cd /home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p cozmo_rc -o /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv
+
 /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for cozmo_rc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/danbr/git/cozmoRos/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for cozmo_rc"
 	cd /home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc cozmo_rc std_msgs
 
 cozmo_rc_generate_messages_eus: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus
 cozmo_rc_generate_messages_eus: /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv/speaker_req.l
+cozmo_rc_generate_messages_eus: /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/srv/light_req.l
 cozmo_rc_generate_messages_eus: /home/danbr/git/cozmoRos/ros_ws/devel/share/roseus/ros/cozmo_rc/manifest.l
 cozmo_rc_generate_messages_eus: cozmo_rc/CMakeFiles/cozmo_rc_generate_messages_eus.dir/build.make
 

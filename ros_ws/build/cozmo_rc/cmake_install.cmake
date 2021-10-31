@@ -38,7 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cozmo_rc/srv" TYPE FILE FILES "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cozmo_rc/srv" TYPE FILE FILES
+    "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv"
+    "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -90,5 +93,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cozmo_rc" TYPE PROGRAM FILES "/home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc/catkin_generated/installspace/SpeakerService.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cozmo_rc" TYPE PROGRAM FILES "/home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc/catkin_generated/installspace/LightService.py")
 endif()
 

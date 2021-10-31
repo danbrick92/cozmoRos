@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv"
+services_str = "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv;/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv"
 pkg_name = "cozmo_rc"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

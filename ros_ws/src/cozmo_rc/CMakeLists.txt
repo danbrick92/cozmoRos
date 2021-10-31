@@ -57,6 +57,7 @@ find_package(catkin REQUIRED
 add_service_files(
   FILES
   speaker_req.srv
+  light_req.srv
 )
 
 ## Generate actions in the 'action' folder
@@ -160,6 +161,7 @@ include_directories(
 ## in contrast to setup.py, you can choose the destination
 catkin_install_python(PROGRAMS
   scripts/sensors/SpeakerService.py
+  scripts/sensors/LightService.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

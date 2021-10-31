@@ -1,6 +1,11 @@
 (cl:defpackage cozmo_rc-srv
   (:use )
   (:export
+   "LIGHT_REQ"
+   "<LIGHT_REQ-REQUEST>"
+   "LIGHT_REQ-REQUEST"
+   "<LIGHT_REQ-RESPONSE>"
+   "LIGHT_REQ-RESPONSE"
    "SPEAKER_REQ"
    "<SPEAKER_REQ-REQUEST>"
    "SPEAKER_REQ-REQUEST"

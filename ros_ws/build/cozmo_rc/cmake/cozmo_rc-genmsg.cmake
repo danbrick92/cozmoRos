@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "cozmo_rc: 0 messages, 1 services")
+message(STATUS "cozmo_rc: 0 messages, 2 services")
 
 set(MSG_I_FLAGS "-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
@@ -22,6 +22,11 @@ add_custom_target(_cozmo_rc_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "cozmo_rc" "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv" ""
 )
 
+get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv" NAME_WE)
+add_custom_target(_cozmo_rc_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "cozmo_rc" "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -32,6 +37,12 @@ add_custom_target(_cozmo_rc_generate_messages_check_deps_${_filename}
 ### Generating Services
 _generate_srv_cpp(cozmo_rc
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/cozmo_rc
+)
+_generate_srv_cpp(cozmo_rc
+  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/cozmo_rc
@@ -51,6 +62,8 @@ add_dependencies(cozmo_rc_generate_messages cozmo_rc_generate_messages_cpp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv" NAME_WE)
 add_dependencies(cozmo_rc_generate_messages_cpp _cozmo_rc_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv" NAME_WE)
+add_dependencies(cozmo_rc_generate_messages_cpp _cozmo_rc_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(cozmo_rc_gencpp)
@@ -65,6 +78,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS cozmo_rc_generate_messages_cpp)
 ### Generating Services
 _generate_srv_eus(cozmo_rc
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/cozmo_rc
+)
+_generate_srv_eus(cozmo_rc
+  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/cozmo_rc
@@ -84,6 +103,8 @@ add_dependencies(cozmo_rc_generate_messages cozmo_rc_generate_messages_eus)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv" NAME_WE)
 add_dependencies(cozmo_rc_generate_messages_eus _cozmo_rc_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv" NAME_WE)
+add_dependencies(cozmo_rc_generate_messages_eus _cozmo_rc_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(cozmo_rc_geneus)
@@ -98,6 +119,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS cozmo_rc_generate_messages_eus)
 ### Generating Services
 _generate_srv_lisp(cozmo_rc
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/cozmo_rc
+)
+_generate_srv_lisp(cozmo_rc
+  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/cozmo_rc
@@ -117,6 +144,8 @@ add_dependencies(cozmo_rc_generate_messages cozmo_rc_generate_messages_lisp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv" NAME_WE)
 add_dependencies(cozmo_rc_generate_messages_lisp _cozmo_rc_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv" NAME_WE)
+add_dependencies(cozmo_rc_generate_messages_lisp _cozmo_rc_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(cozmo_rc_genlisp)
@@ -131,6 +160,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS cozmo_rc_generate_messages_lisp)
 ### Generating Services
 _generate_srv_nodejs(cozmo_rc
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/cozmo_rc
+)
+_generate_srv_nodejs(cozmo_rc
+  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/cozmo_rc
@@ -150,6 +185,8 @@ add_dependencies(cozmo_rc_generate_messages cozmo_rc_generate_messages_nodejs)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv" NAME_WE)
 add_dependencies(cozmo_rc_generate_messages_nodejs _cozmo_rc_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv" NAME_WE)
+add_dependencies(cozmo_rc_generate_messages_nodejs _cozmo_rc_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(cozmo_rc_gennodejs)
@@ -168,6 +205,12 @@ _generate_srv_py(cozmo_rc
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/cozmo_rc
 )
+_generate_srv_py(cozmo_rc
+  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/cozmo_rc
+)
 
 ### Generating Module File
 _generate_module_py(cozmo_rc
@@ -182,6 +225,8 @@ add_dependencies(cozmo_rc_generate_messages cozmo_rc_generate_messages_py)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/speaker_req.srv" NAME_WE)
+add_dependencies(cozmo_rc_generate_messages_py _cozmo_rc_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/srv/light_req.srv" NAME_WE)
 add_dependencies(cozmo_rc_generate_messages_py _cozmo_rc_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
