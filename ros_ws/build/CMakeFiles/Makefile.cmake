@@ -22,7 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/danbr/git/cozmoRos/ros_ws/src/CMakeLists.txt"
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/CMakeLists.txt"
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/package.xml"
-  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/sensors/SpeakerSubscriber.py"
+  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/sensors/SpeakerService.py"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"

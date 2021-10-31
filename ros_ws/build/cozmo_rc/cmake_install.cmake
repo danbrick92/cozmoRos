@@ -89,6 +89,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cozmo_rc" TYPE PROGRAM FILES "/home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc/catkin_generated/installspace/SpeakerSubscriber.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cozmo_rc" TYPE PROGRAM FILES "/home/danbr/git/cozmoRos/ros_ws/build/cozmo_rc/catkin_generated/installspace/SpeakerService.py")
 endif()
 
