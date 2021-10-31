@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/danbr/git/cozmoRos/ros_ws/devel/setup.sh

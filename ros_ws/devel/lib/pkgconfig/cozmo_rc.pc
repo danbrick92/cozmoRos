@@ -1,0 +1,8 @@
+prefix=/home/danbr/git/cozmoRos/ros_ws/devel
+
+Name: cozmo_rc
+Description: Description of cozmo_rc
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

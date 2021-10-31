@@ -1,0 +1,2 @@
+cozmo_rc
+-DCATKIN_DEVEL_PREFIX=/home/danbr/git/cozmoRos/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/danbr/git/cozmoRos/ros_ws/install -G Unix Makefiles
