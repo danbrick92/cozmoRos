@@ -2,23 +2,26 @@
 import rospy
 import cozmo
 from cozmo_rc.srv import light_req
+import time
 
 # Globals
 COLORS = {
-    'red' : cozmo.lights.red_light,
-    'blue' : cozmo.lights.blue_light,
-    'green' : cozmo.lights.green_light,
-    'white' : cozmo.lights.white_light,
-    'none' : cozmo.lights.off_light
+    'red': cozmo.lights.red_light,
+    'blue': cozmo.lights.blue_light,
+    'green': cozmo.lights.green_light,
+    'white': cozmo.lights.white_light,
+    'none': cozmo.lights.off_light
 }
 color_chosen = None
+SLEEP_TIME = 5
 
 # Functions
 def set_light(robot: cozmo.robot.Robot):
     """
     Performs the intended action
     """
-    robot.set_all_backpack_lights(color_chosen).wait_for_completed()
+    robot.set_all_backpack_lights(color_chosen)
+    time.sleep(SLEEP_TIME)
 
 def light(req):
     """
