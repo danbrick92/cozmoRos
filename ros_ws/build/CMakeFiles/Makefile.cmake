@@ -28,6 +28,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/actuators/MovementSubscriber.py"
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/actuators/SpeakerService.py"
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/sensors/CameraPublisher.py"
+  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/sensors/CliffPublisher.py"
+  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/sensors/PosePublisher.py"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"

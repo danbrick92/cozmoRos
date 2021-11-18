@@ -166,6 +166,8 @@ catkin_install_python(PROGRAMS
   scripts/actuators/HeadMovementSubscriber.py
   scripts/actuators/ArmMovementSubscriber.py
   scripts/sensors/CameraPublisher.py
+  scripts/sensors/CliffPublisher.py
+  scripts/sensors/PosePublisher.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
