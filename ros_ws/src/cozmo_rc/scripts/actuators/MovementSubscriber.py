@@ -43,7 +43,7 @@ def get_movement(robo: cozmo.robot.Robot):
 
 def subscriber():
     """
-    Purpose: Publishes camera image data
+    Purpose: Subscribes to movement topic
     """
     rospy.init_node('MovementSubscriber', anonymous=True)
     cozmo.run_program(get_movement)
