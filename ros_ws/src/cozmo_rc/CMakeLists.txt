@@ -163,6 +163,8 @@ catkin_install_python(PROGRAMS
   scripts/actuators/SpeakerService.py
   scripts/actuators/LightService.py
   scripts/actuators/MovementSubscriber.py
+  scripts/actuators/HeadMovementSubscriber.py
+  scripts/actuators/ArmMovementSubscriber.py
   scripts/sensors/CameraPublisher.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )

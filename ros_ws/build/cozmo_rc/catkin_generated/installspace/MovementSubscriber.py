@@ -7,7 +7,7 @@ import math
 
 # Globals
 robot = None
-MAX_SPEED = 20
+MAX_SPEED = 50
 
 # Functions
 def move_cozmo(message: Twist):
@@ -43,7 +43,7 @@ def get_movement(robo: cozmo.robot.Robot):
 
 def subscriber():
     """
-    Purpose: Publishes camera image data
+    Purpose: Subscribes to movement topic
     """
     rospy.init_node('MovementSubscriber', anonymous=True)
     cozmo.run_program(get_movement)
