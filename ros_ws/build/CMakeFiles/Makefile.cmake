@@ -23,6 +23,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/CMakeLists.txt"
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/package.xml"
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/actuators/LightService.py"
+  "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/actuators/MovementSubscriber.py"
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/actuators/SpeakerService.py"
   "/home/danbr/git/cozmoRos/ros_ws/src/cozmo_rc/scripts/sensors/CameraPublisher.py"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"

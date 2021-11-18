@@ -51,12 +51,6 @@ def publisher():
     pub_handle = rospy.Publisher("CozmoCamera", Image, queue_size=10)
     loop_hz = rospy.Rate(1)
     cozmo.run_program(get_image_from_cozmo)
-    # while not rospy.is_shutdown():
-    #     # Get image
-    #     ros_img = convert_image_to_ros_format(image)
-    #     # Publish
-    #     pub_handle.publish(ros_img)
-    #     loop_hz.sleep()
 
 if __name__ == '__main__':
     publisher()
